@@ -25,7 +25,6 @@ export class FeedbackService {
     });
     return await this.feedbackRepository.save(newFeedback);
   }
-
   public async remove(id: number) {
     await this.feedbackRepository.delete(id);
   }
