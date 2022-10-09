@@ -16,7 +16,7 @@ import { Recoverable } from 'repl';
 import { FeedbackService } from '../services/feedback.services';
 import { CreateFeedbackDto } from '../dto/createFeedback.dto';
 
-@Controller('api/feedback')
+@Controller('/api/feedback')
 export class FeedbackController {
   constructor(private readonly feedbackService: FeedbackService) {}
 
