@@ -15,7 +15,8 @@ You need provide to request body such parameters:
                   message: 'Text'
                 }
   ```
-- To recive list of stored messages use (method: GET) - https://nestjs-mysql-zenbittech.herokuapp.com/api/feedback.
+- To recive list of stored messages use (method: GET) - https://nestjs-mysql-zenbittech.herokuapp.com/api/feedback.  
+You will recive such responce:
   ```jsx
   "allFeedback": [
         {
@@ -32,9 +33,9 @@ You need provide to request body such parameters:
         }
     ]
     ```
-- To delete one of stored messages you need 'id' of entity.  
-To use it you need (method: DELETE) - https://nestjs-mysql-zenbittech.herokuapp.com/api/feedback/${id}. Message will be deleted.
-  ```
+- To delete one of stored messages you need to know 'id' of entity you want to delete.  
+To use it you need to pass (method: DELETE) - https://nestjs-mysql-zenbittech.herokuapp.com/api/feedback/${id}. Message will be deleted.
+  ```jsx
   "message": "Feedback with id: 51 - was deleted"
   ```
 # Thank you for your time :)
