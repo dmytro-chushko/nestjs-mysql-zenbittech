@@ -6,7 +6,8 @@
 ## Usage.
 This API receives requests with feedback messages and stores them into the database.
 ### Requests:
-- To store feedback message use (method: POST) - https://nestjs-mysql-zenbittech.herokuapp.com/api/feedback. 
+- To store feedback message use (method: POST) - https://nestjs-mysql-zenbittech.herokuapp.com/api/feedback.  
+You need provide to request body such parameters:
   ```jsx
   request.body={
                   name: 'Name',
